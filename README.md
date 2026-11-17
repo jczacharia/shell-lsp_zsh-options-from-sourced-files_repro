@@ -33,7 +33,7 @@ bin/sourced.zsh:8:1: note: This command's exit status is masked by its context; 
 ## Run it without cloning
 
 ```sh
-nix run github:jczacharia/shell-lsp_zsh-relative-file-source_repro
+nix run github:jczacharia/shell-lsp_zsh-options-from-sourced-files_repro
 ```
 
 Builds shell-lsp v0.5.21 from its tag and lints `bin/`.

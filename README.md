@@ -1,6 +1,6 @@
 # shell-lsp: options set by a sourced zsh file are ignored
 
-Reproduction for [stubbedev/shell-lsp#ISSUE](https://github.com/stubbedev/shell-lsp/issues/ISSUE).
+Reproduction for [stubbedev/shell-lsp#89](https://github.com/stubbedev/shell-lsp/issues/89).
 
 `lib/options.zsh` turns on `pipe_fail` and `extended_glob`. Two scripts do the same thing:
 
